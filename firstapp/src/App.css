@@ -1,0 +1,218 @@
+
+
+
+
+    
+    
+  .navbar ul li :hover {
+    background-color:rgba(218, 176, 69, 0.87);
+    height: 48px;
+  }
+  
+  
+  .active  {
+    background-color:rgba(218, 176, 69, 0.87);  
+   
+  }
+  
+
+
+
+ @media screen and (max-width:992px) {
+  .navbar li{ background-color:#0a2e2c ;
+    
+    
+  }
+  #demo{
+    margin-top: 250px;
+    
+  }
+  
+ }
+
+
+   
+
+    @media screen and (max-width: 992px) {
+      .topNav img {
+       width: 100%;
+       height: auto;
+       margin-bottom: 60px;
+       margin-top: 10px;
+      }
+
+    }
+
+   
+    @media screen and (min-width: 993px) {
+      .topNav img {
+       width: 20%;
+      
+      
+      }
+    }
+
+    @media screen and (max-width: 992px) {
+      .topNav2{
+       visibility: hidden;
+       margin-right: 320px;
+       
+      
+      
+      }
+    }
+   
+
+    
+
+    @media (max-width: 992px) {
+      .imgg {
+          width: 20%;
+          display: flex;
+          justify-content:flex-end;
+        
+      }
+      
+    }
+    @media (max-width: 1200px) {
+      .imgg {
+          width: 20%;
+          display: flex;
+          justify-content:flex-end;
+        
+      }
+      
+    }
+
+    
+      
+      
+    
+
+    .defaultPic img:hover{
+      
+      transition: transform 1s;
+      transform: scale(.9)
+    }
+
+    .row h5:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    }
+    
+
+
+    .carousel-caption{
+      animation-name: examp;
+      animation-duration: 1s;
+      text-align: center;
+     animation-delay: 1s;
+     }
+    @keyframes examp {
+      from {
+        transform: translateX(100%);  /* Start from right, outside of the view */
+    }
+    to {
+        transform: translateX(0%);     /* End at its natural position */
+    }
+    from {
+       color: red
+       }
+      to { 
+        color:whitesmoke}
+    }
+
+    
+    @media (max-width: 767px) {
+      .carousel-inner .carousel-item > div {
+          display: block;
+      }
+      .carousel-inner .carousel-item > div:first-child {
+          display: block;
+      }
+  }
+  
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+      display: flex;
+  }
+  
+  
+  @media (min-width: 768px) {
+      
+      .carousel-inner .carousel-item-end.active,
+      .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+        
+      }
+      
+      .carousel-inner .carousel-item-start.active, 
+      .carousel-inner .carousel-item-prev {
+        transform: translateX(80%);
+       
+      }
+  }
+  
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+  }
+
+
+   
+
+
+
+   
+
+ 
+ 
+
+ .roomsBack{
+  background-image: linear-gradient( #0a2e2c , black, #0a2e2c );
+  height: 3000px;
+ }
+
+ .servicesBack{
+  background-image: linear-gradient( #0a2e2c , black, #0a2e2c );
+  height: 250px
+
+ }
+
+ .contactBack{
+  background-image: linear-gradient( #0a2e2c , black, #0a2e2c );
+  height: 1000px;
+  
+
+ }
+
+
+ .galleryback{
+  background-image: linear-gradient( #0a2e2c , black, #0a2e2c );
+  height: 480px
+
+ }
+
+ .blogsback{
+  background-image: linear-gradient( #0a2e2c , black, #0a2e2c );
+  height: 260px
+
+ }
+
+
+ 
+
+ .sicDiv :hover{
+  transition: transform 1s;
+      transform: scale(.9);
+      border: 4px solid rgba(114, 103, 103, 0.783);
+      animation-timing-function: ease-out;
+      animation-duration: 2s;
+
+ }
+
+ 
+
+
+   
